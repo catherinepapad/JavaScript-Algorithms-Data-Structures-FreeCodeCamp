@@ -1,2 +1,3 @@
-# JavaScript-Algorithms-Data-Structures-FreeCodeCamp
-Free Code Camp Certificate 
+# JavaScript Algorithms and Data-Structures - FreeCodeCamp
+
+ In Progress
