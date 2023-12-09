@@ -18,13 +18,11 @@ function convertToRoman(num) {
   let arr = [];
   let rem = num;
   for (let numeral in numerals) {
-    //console.log(numeral)
-    if (num >= numerals[numeral]) {
-      while (rem >= numerals[numeral]) {
-        arr.push(numeral);
-        rem -= numerals[numeral];
-      }
+    while (rem >= numerals[numeral]) {
+      arr.push(numeral);
+      rem -= numerals[numeral];
     }
+    
   } 
   return arr.join('')
   }
